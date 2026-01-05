@@ -1,0 +1,6 @@
+*.o
+*.elf
+*.iso
+*.map
+iso_root/
+.DS_Store
