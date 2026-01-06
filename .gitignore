@@ -10,3 +10,7 @@ iso_root/
 
 # optional: if you ever re-clone protocol headers
 external-limine-protocol/
+
+# limine build outputs
+limine/*.o
+limine/limine
