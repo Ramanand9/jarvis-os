@@ -1,6 +1,12 @@
+# build outputs
 *.o
 *.elf
 *.iso
 *.map
 iso_root/
+
+# mac
 .DS_Store
+
+# optional: if you ever re-clone protocol headers
+external-limine-protocol/
