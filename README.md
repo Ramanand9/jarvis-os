@@ -115,9 +115,3 @@ Limine loads kernel
 kernel reaches entry point
 Limine request/response mechanism works
 debug output path is functional
-
-10) Issues solved during Day 1 (lessons learned)
-GNU make requires real TABs for recipe lines (not spaces / not literal \t)
-Some files got accidentally written with command text inside (fixed by rewriting)
-ld.lld was not in $(brew --prefix llvm)/bin; actual location was /opt/homebrew/bin/ld.lld (fixed by using command -v ld.lld style discovery)
-Verified build determinism with gmake -f GNUmakefile --debug=v run
